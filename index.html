@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="CSS/h-style.css">
+        <title>Facebook</title>
+    </head>
+    <body>
+        <section class="main">
+            <div class="s-1">
+                <img src="MEDIA/dF5SId3UHWd.svg" height="106px">
+                <span class="s-intro">
+                    <span class="int-1">Facebook helps you connect and share with the people in your life.</span>
+                    <span class="int-2">Facebook helps you connect and<br>share with the people in your life.</span>
+                </span>
+            </div>
+            <div class="s-2">
+                <div class="m-form">
+                    <form name="form1" method="post" action="">
+                        <div class="f-e" id="email"><input type="text" placeholder="Email address or phone number" name="txt1">
+                            <span class="error" id="error"><i class="fa-solid fa-triangle-exclamation"></i></span>
+                        </div>
+                        <div class="f-p" id="m-pass"><input type="password" placeholder="Password" name="txt2" oninput="show()" id="pass">
+                            <span class="eye" id="eye" onclick="seye()">
+                                <i class="fa-solid fa-eye" id="eyeo" onclick="eyo()"></i>
+                                <i class="fa-solid fa-eye-slash" id="eyec" onclick="eyc()"></i>
+                                <i class="fa-solid fa-triangle-exclamation" id="errorico"></i>
+                            </span>
+                        </div>
+                        <a href="#-" class="f-l" onclick="login()" id="log">Log in</a>
+                        <span class="f-f"><a href="#-">Forgotten password?</a></span><hr>
+                        <a href="#-" class="f-c">Create new account</a>
+                    </form>
+                    <span class="f-fo"><a href="#-">Create a Page&nbsp;</a>for a celebrity, brand or business.</span>
+                </div>
+            </div>
+        </section>
+        <script src="JAVA/java.js"></script>
+    </body>
+</html>

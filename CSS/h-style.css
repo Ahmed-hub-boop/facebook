@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none; color: white;}
+hr{
+    width: 100%;border: 1px solid #dddfe2;
+
+}
+body{
+    background-color: #f0f2f5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.main{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9% 17%;
+    margin: 0 auto;
+}
+.s-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 35%;
+    margin-top: -80px;
+}
+.s-2{
+    width: 35%;
+    
+}   
+.s-1 img{
+    margin: -10px -28px ;
+
+}
+.s-1 .s-intro{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: 500px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.m-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 2.5vh;
+}
+
+input{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+}
+#error,#errorico{
+    display: none;
+}
+.f-e,.f-p{
+    border: 1px solid #dddfe2;
+    padding: 14px 16px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 2vh;
+    display: flex;
+}
+.f-p{
+    display: flex;
+}
+#eyeo,#eye{
+    display: none;
+}
+.f-l{
+    font-size: 20px;
+    background-color: #1877f2;
+    padding: 13px 0;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.f-f a{
+    color: #1877f2;
+    margin-bottom: 2vh;
+    display: inline-block;
+
+}
+.f-f a:hover{
+    border-bottom: 1px solid;
+}
+.f-c{
+    padding: 13px 13px;
+    color: white;
+    background: #42b72a;
+    font-size: 19px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 2vh 0;
+}
+.f-fo{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-fo a{
+    color: black;
+    font-weight: 600;
+}
+.f-fo a:hover{
+    border-bottom: 1px solid;
+}
+.int-2{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .s-1 .s-intro{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:1314px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding: 5vh;
+    }
+    .s-1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    .s-1 .s-intro{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .int-2{
+        display: block;
+    }
+    .int-1{
+        display: none;
+    }
+    .f-fo{
+        width: 100%;
+        display: flex;
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
