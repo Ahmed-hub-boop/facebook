@@ -467,7 +467,7 @@ nav .search{
 }
 .p-c img{
     width: 100%;
-    margin-top: -12vh;
+    margin-top: -1vh;
 }
 .p-r{
     width: 100%;
@@ -886,5 +886,8 @@ nav .search{
     }
     .n-2 span{
         width: 100px;
+    }
+    .s-1{
+        display: none;
     }
 }

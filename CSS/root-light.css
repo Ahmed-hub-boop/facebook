@@ -7,9 +7,6 @@
 i,svg{
     color: black;
 }
-
-
-/*background-color: #b0b3b84d;*/
 .menu div:hover,.mi-1 div:hover,.mi-2 span:hover,
 .s-1 div:hover,.ico-name:hover,.page div:hover,.c-cont:hover
 { background-color: #b0b3b84d;}
@@ -20,8 +17,6 @@ i,svg{
 .c-cont:hover .online{
     border: 3px solid #f0f2f5;
 }
-
-
 .creat-story .cs-3{
     color: #000000;
 }
